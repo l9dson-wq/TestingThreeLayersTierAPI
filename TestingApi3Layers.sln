@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34408.163
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi", "WebApi\WebApi.csproj", "{91C6526A-724F-40DF-8A55-58092F4A2089}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Database", "Database\Database.csproj", "{58D10D36-F166-4174-A5D4-23608BA92BC0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Application\Application.csproj", "{E7333F5A-0734-4C15-AFFF-85D558EF4AED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{91C6526A-724F-40DF-8A55-58092F4A2089}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91C6526A-724F-40DF-8A55-58092F4A2089}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91C6526A-724F-40DF-8A55-58092F4A2089}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91C6526A-724F-40DF-8A55-58092F4A2089}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58D10D36-F166-4174-A5D4-23608BA92BC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58D10D36-F166-4174-A5D4-23608BA92BC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58D10D36-F166-4174-A5D4-23608BA92BC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58D10D36-F166-4174-A5D4-23608BA92BC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7333F5A-0734-4C15-AFFF-85D558EF4AED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7333F5A-0734-4C15-AFFF-85D558EF4AED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7333F5A-0734-4C15-AFFF-85D558EF4AED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7333F5A-0734-4C15-AFFF-85D558EF4AED}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BF851973-427B-4FF5-A583-256A012664C2}
+	EndGlobalSection
+EndGlobal
