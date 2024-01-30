@@ -26,7 +26,6 @@ namespace WebApi.Controllers
         await _pokemonService.Add(savePokemonViewModel);
 
         return Ok();
-
       }
       catch (Exception ex)
       {
@@ -44,7 +43,6 @@ namespace WebApi.Controllers
         var pokemons = await _pokemonService.GetAll();
 
         return Ok(pokemons);
-
       }
       catch (Exception ex)
       {
@@ -79,7 +77,6 @@ namespace WebApi.Controllers
         await _pokemonService.Delete(id);
 
         return Ok();
-
       }
       catch (Exception ex)
       {
